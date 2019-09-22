@@ -69,6 +69,8 @@ a:hover {
 .log-out {
   position: relative;
   float: right;
+  text-decoration: none;
+  margin-top: 10px;
   margin-right: 80px;
   color: #fff;
 }
@@ -116,6 +118,7 @@ a:hover {
     margin-right: 10%;
   }
   .log-out {
+    margin-top: 10px;
     text-decoration: none;
     margin-right: 10%;
   }
