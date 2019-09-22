@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@margin-width: 0px;
+@padding-width: 0px;
+@background-color: #f2f2f2;
+@card-color: #f4f4f4;
+@form-width: 500px;
+@form-height: 300px;
+@input-background-color: #ea6e6e;
+@input-border-radius: 20px;
+@input-padding: 5px;
+@input-margin-right: 80px;
+@input-margin-left: 80px;
+@input-font-size: 15px;
+@input-height: 40px;
+@input-placeholder-color: #fff;
+@font-family: 'open sans', sans-serif;
+
+html, body{
+    margin: @margin-width;
+    padding: @padding-width;
+    background-color: @background-color;
+}
+
+//where login form start
+.form-general{
+    background-color: @card-color;
+    width: @form-width;
+    height: @form-height;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    font-family: @font-family
+}
+.warn{
+    font-family: @font-family;
+    font-size: 12px;
+}
+
+#username{
+    font-size: @input-font-size;
+    margin-left: @input-margin-left;
+    margin-right: @input-margin-right;
+    text-align: center;
+    border: none;
+    height: @input-height;
+    padding: @input-padding;
+    border-radius: @input-border-radius;
+    background-color: @input-background-color;
+    font-family: @font-family;
+}
+#username::placeholder{
+    font-family: @font-family;
+    color: @input-placeholder-color;
+}
+
+#password{
+    font-size: @input-font-size;
+    margin-left: @input-margin-left;
+    margin-right: @input-margin-right;
+    text-align: center;
+    height: @input-height;
+    border: none;
+    margin-top: 10px;
+    padding: @input-padding;
+    border-radius: @input-border-radius;
+    background-color: @input-background-color;
+}
+#password::placeholder{
+    font-family: @font-family;
+    color: @input-placeholder-color;
+}
+
+#login-button{
+    color: @input-placeholder-color;
+    margin-left: @input-margin-left;
+    margin-right: @input-margin-right;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    font-size: @input-font-size;
+    border-radius: @input-border-radius;
+    padding: @input-padding;
+    background-color: #0d1148;
+}
+.text{
+    font-family: @font-family;
+    color: red;
+}
+@media only screen and (max-width: 960px) {
+    
+    .form-general{
+        width: 100%;
+    }
+    
+}
+//where login form ends.

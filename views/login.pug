@@ -1,0 +1,13 @@
+html
+
+head
+    title Login
+    link(rel="stylesheet", type="text/css", href="/css/style.css")
+body
+    form(action="/homepage", method="post").form-general
+        h1.header Login
+        input(id="username" name="username" type="text" placeholder="Username")
+        input(id="password" name="password" type="password" placeholder="Password")
+        input(id="login-button" name="login-button" type="submit" value="Login")
+        p.warn Username: admin && Password:admin
+        p.text #{message}

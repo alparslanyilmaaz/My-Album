@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+}
+.form-general {
+  background-color: #f4f4f4;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header {
+  font-family: 'open sans', sans-serif;
+}
+.warn {
+  font-family: 'open sans', sans-serif;
+  font-size: 12px;
+}
+#username {
+  font-size: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  border: none;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #ea6e6e;
+  font-family: 'open sans', sans-serif;
+}
+#username::placeholder {
+  font-family: 'open sans', sans-serif;
+  color: #fff;
+}
+#password {
+  font-size: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #ea6e6e;
+}
+#password::placeholder {
+  font-family: 'open sans', sans-serif;
+  color: #fff;
+}
+#login-button {
+  color: #fff;
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 30px;
+  margin-top: 20px;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #0d1148;
+}
+.text {
+  font-family: 'open sans', sans-serif;
+  color: red;
+}
+@media only screen and (max-width: 960px) {
+  .form-general {
+    width: 100%;
+  }
+}
