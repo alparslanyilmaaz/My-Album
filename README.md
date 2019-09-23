@@ -17,10 +17,10 @@ Homepage Screen
 
 ## Installation
 
-In here you will see the project structure :  
+In here you will see the project structure:  
 <img src="https://github.com/alparlanylmaz/My-Album/blob/master/git-photos/screen.png"/>
   
     
 Here is the json file in project  
-<img src="https://github.com/alparlanylmaz/My-Album/blob/master/git-photos/real_json.png"/>  
+<img src="https://github.com/alparlanylmaz/My-Album/blob/master/git-photos/json.png"/>  
 You can install this elements with npm install
