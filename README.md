@@ -1,5 +1,15 @@
 # My-Album
-Online album and photo website.
+Online albums and photo show app.
+
+## Used Technologies
+NodeJS and Npm  
+Express  
+Pug  
+Nodemon  
+Less  
+Body Parser  
+Grunt-contrib-cssmin  
+Grunt-contrib-uglify  
 
 ## Usage
 When you logged in with username: admin and password: admin, you will be able to see content. In this content when you clicked to
