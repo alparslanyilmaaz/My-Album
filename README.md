@@ -32,4 +32,5 @@ In here you will see the project structure:
     
 Here is the json file in project  
 <img src="https://github.com/alparlanylmaz/My-Album/blob/master/git-photos/json.png"/>  
-You can install this elements with npm install
+When you clone the source code from github You will be able to access this codes. Afterwards you can install in json folder
+what i used. You can use npm install for install this element. After all installation finished, you are ready to go.
